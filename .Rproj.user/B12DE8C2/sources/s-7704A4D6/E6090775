@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565762849523.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "E6090775",
+    "lastKnownWriteTime" : 1565768988,
+    "last_content_update" : 1565768988690,
+    "path" : "C:/Rstudy/lab_05.R",
+    "project_path" : "lab_05.R",
+    "properties" : {
+        "cursorPosition" : "96,0",
+        "scrollLine" : "94",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
