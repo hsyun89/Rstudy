@@ -41,7 +41,7 @@ exam2(10,"%%",0)
 #실습3
 exam3<-function(num,char="#"){
   for(data in 1:num)
-    print(char)
+    cat(char)
   return()
 }
 exam3(5,"$")
@@ -78,7 +78,7 @@ countEvenOdd(c(1,2,3,4,5))
 countEvenOdd(5)
 #실습6
 vmSum<-function(v1){
-  if(is.vector(v1)){
+  if(is.vector(v1)&&!is.list(v1)){
     if(is.numeric(v1)){
       result<-sum(v1)
     }else{
@@ -94,7 +94,7 @@ vmSum(c(1,2,"3",4))
 vmSum(exam4(33))
 #실습7
 createVector<-function(...){
-  num<-NULL
+  num<-NULL #혹은 num<-c() 형식으로 해도 됌
   char<-NULL
   logi<-NULL
   if(length(c(...))==0){
@@ -110,7 +110,7 @@ createVector<-function(...){
         logi <- append(logi,item)
       }
     }
-  return(list(numb=num,char=char,logic=logi))
+  return(list(number=num,character=char,logic=logi))
 }
 
 createVector()
@@ -122,7 +122,7 @@ sort(number, decreasing = T)
 sum(number)
 mean(number)
 #실습9
-word<-scan("iotest2.txt",what = )
+word<-scan("iotest2.txt",what ="")
 factor(word)
 most<-sort(summary(factor(word)),decreasing = T)[1]
 cat("가장 많이 등장한 단어는",names(most),"입니다.")
