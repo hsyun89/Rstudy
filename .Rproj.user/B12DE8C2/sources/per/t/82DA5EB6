@@ -12,14 +12,14 @@
     "path" : "C:/Rstudy/day3.R",
     "project_path" : "day3.R",
     "properties" : {
-        "cursorPosition" : "87,3",
-        "scrollLine" : "0",
+        "cursorPosition" : "10,16",
+        "scrollLine" : "29",
         "tempName" : "Untitled1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 2,
+    "relative_order" : 3,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"
