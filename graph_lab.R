@@ -11,3 +11,6 @@ barplot(tmp$num,names.arg=tmp$drv,col=rainbow(3))
 
 #문제3
 boxplot(hwy~manufacturer,data=mpg,main="*제조사별 고속도로 연비*",ylim = c(5,40),xlab = "",ylab ="고속도로연비",col=heat.colors(15),col.main="magenta",las=2)
+
+
+colors()
