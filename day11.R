@@ -196,7 +196,10 @@ library(plotly)
 library(ggplot2)
 p <- ggplot(data = mpg, aes(x = displ, y = hwy, col = drv)) + geom_point()
 # 인터랙티브 그래프 만들기
-ggplotly(p)
+imsi<-ggplotly(p)
+str(imsi)
+library(htmltools)
+renderTags(imsi)
 
 # 인터랙티브 막대 그래프 만들기
 p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) + 
